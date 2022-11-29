@@ -1,0 +1,31 @@
+.portfolio-box{
+	width: 25%;
+	height: 20%;
+
+}
+.portfolio-img{
+	width: 10rem;
+	height: 10rem;
+	border-radius: 1rem;
+}	
+.btn-portfolio{
+	margin-right: 1rem;
+}
+@media screen and (max-width:1024px) {
+	.portfolio-container{
+		display: flex;
+		height: auto;
+	}
+	.portfolio-box{
+		width: 15rem;
+	}	
+		
+	}
+	@media screen and (max-width:600px) {
+		.portfolio-container{
+		display: flex;
+		flex-direction: column;
+		height: fit-content;
+	}	
+		
+	}

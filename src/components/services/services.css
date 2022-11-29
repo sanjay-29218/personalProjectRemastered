@@ -1,0 +1,26 @@
+.service-h1{
+	text-align: center;
+	color: var(--color-primary);
+}
+#services{
+	display: flex;
+	justify-content: space-between;
+	height: 100vh;
+}
+@media  screen and (max-width:1200px) {
+	#services{
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		gap: 2rem;
+	}
+
+		
+}
+@media  screen and (max-width:600px) {
+	#services{
+		display: grid;
+		grid-template-columns: 1fr ;
+		gap: 2rem;
+		height: auto;
+	}
+}

@@ -1,0 +1,36 @@
+.service-container{
+	border: 2px solid var(--color-light);
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	height: 30rem;
+	width: 20vw;
+
+	/* align-items: center; */
+}
+.service-header{
+	color: black;
+	height: 3rem;
+	border-bottom-right-radius: 2rem ;
+	border-bottom-left-radius: 2rem ;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: var(--color-primary);
+}
+
+.service-detail-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 1rem;
+
+
+}
+.service-container:hover{
+	background-color: var(--color-light);
+	color: black;
+}
+.service-detail{
+	display: flex;
+}

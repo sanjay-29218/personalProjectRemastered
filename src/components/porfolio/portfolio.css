@@ -1,0 +1,30 @@
+.portfolio-container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 5rem;
+}
+
+
+@media screen and (max-width:1024px) {
+	#portfolio{
+		height: auto;
+	}
+	.portfolio-box{
+		width: 15rem;
+	}	
+		
+	}
+	@media screen and (max-width:600px) {
+		#portfolio{
+			height: auto;
+
+		}
+		.portfolio-container{
+		display: flex;
+		flex-direction: column;
+		height: fit-content;
+	}	
+		
+	}
